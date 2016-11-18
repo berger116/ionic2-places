@@ -8,6 +8,7 @@ import { Http } from '@angular/http';
 import { Storage } from '@ionic/storage';
 import {Endpoints} from '../providers/endpoints'
 import {Auth} from '../providers/auth'
+import {Settings} from '../providers/Settings';
 import {Map} from '../components/map/map';
 import {SortAsc} from '../pipes/sort-asc';
 import {GroupBy} from '../pipes/group-by';
@@ -52,6 +53,7 @@ export function getAuthHttp(http) {
    },
    Endpoints,
    Auth,
+   Settings,
   ],
   bootstrap: [IonicApp],
   entryComponents: app.concat(pages),
