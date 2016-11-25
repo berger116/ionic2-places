@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { } from "@types/google-maps";
 /*
   Generated class for the Maps component.
 
